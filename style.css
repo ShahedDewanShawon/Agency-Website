@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    padding: 10px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-weight: 600;
+}
+
+.header a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 40px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.hero{
+    background-color: darkblue;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: ghostwhite;
+}
+.hero hr{
+    background-color:lightblue;
+    height: 3px;
+    width: 20%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: khaki;
+    width: 650px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 55px;
+}
+.hero a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: beige;
+}
+.hero a:hover{
+    border: 5px solid ivory;
+    background-color: darkblue;
+    color: ghostwhite;
+}
+.service{
+    background-color:ghostwhite;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+}
+.service1{
+    width: 31%;
+    background-color: darkblue;
+    padding: 40px 30px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.384);
+}
+.service1 img{
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+
+}
+.service1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: ghostwhite;
+    margin: 15px 0px;
+    
+}
+.service1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: khaki;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.service1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: beige;
+}
+.service1 a:hover{
+    border: 3px solid ivory;
+    background-color: darkblue;
+    color: ghostwhite;
+}
+.service2{
+    width: 31%;
+    margin: 0px 40px;
+    background-color: darkblue;
+    padding: 40px 30px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.384);
+}
+.service2 img{
+    width: 100%;
+    height: 220px;
+}
+.service2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: ghostwhite;
+    margin: 15px 0px;
+}
+.service2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: khaki;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.service2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: beige;
+}
+.service2 a:hover{
+    border: 3px solid ivory;
+    background-color: darkblue;
+    color: ghostwhite;
+}
+.service3{
+    width: 31%;
+    background-color: darkblue;
+    padding: 40px 30px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.384);
+}
+.service3 img{
+    width: 100%;
+    height: 220px;
+}
+.service3 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: ghostwhite;
+    margin: 15px 0px;
+}
+.service3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: khaki;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.service3 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: beige;
+}
+.service3 a:hover{
+    border: 3px solid ivory;
+    background-color: darkblue;
+    color: ghostwhite;
+}
